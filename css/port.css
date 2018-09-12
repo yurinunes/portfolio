@@ -102,6 +102,10 @@ p {
             transform:skew(8deg) rotate(3deg);
 }
 
+#titulo {
+	font-size: 1.5em;
+}
+
 #contactMeP {
 	text-align: center;
 	display:flex;
@@ -136,9 +140,9 @@ p {
 
 #myPicture {
 /*	max-width: 210px;*/
-	width: 14rem;
+	width: 12rem;
 	height: auto;
-	border-radius: 15em;
+	border-radius: 4em;
 	padding: 10px 0;
     margin: 0 1px;
 }
