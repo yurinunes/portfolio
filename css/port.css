@@ -51,7 +51,7 @@ a:hover {
 
 }
 
-.sectionHeader h2 {
+.sectionHeader h2,p {
 	color: #6e7882;
 
 }
@@ -198,4 +198,9 @@ padding-bottom: 15px;
  	font-size: 3em;
  	color: #dee2e6;
  }
+
+#contatoTexto {
+	text-align: center;
+	font-size: 1.3em;
+}
 
