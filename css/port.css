@@ -26,6 +26,10 @@ nav a {
 	color: #e9ecef;
 }
 
+p {
+	margin-bottom: 0;
+}
+
 .bg-dark {
 	background-color: #1f1e1e40!important;
 }
@@ -64,11 +68,6 @@ a:hover {
     margin: 10px 0;
 }
 
-
-p {
-	margin-bottom: 0;
-}
-
 .shadowEffect
 {
     position:relative;
@@ -101,6 +100,14 @@ p {
          -o-transform:skew(8deg) rotate(3deg);
             transform:skew(8deg) rotate(3deg);
 }
+
+.bw img {
+	transition: all 1s ease;
+  }
+   
+  .bw img:hover {
+	-webkit-filter: grayscale(100%);
+  }
 
 #titulo {
 	font-size: 1.5em;
